@@ -4,8 +4,12 @@ import com.saksonik.ConsoleMaze.generation.Generator;
 import com.saksonik.ConsoleMaze.model.AlternatingCell;
 import com.saksonik.ConsoleMaze.model.Edge;
 import com.saksonik.ConsoleMaze.model.Maze;
-
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
+import java.util.Optional;
+import java.util.Random;
 
 public class DFSGenerator implements Generator {
     private final Random random;

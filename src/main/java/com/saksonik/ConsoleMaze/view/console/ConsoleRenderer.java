@@ -4,7 +4,6 @@ import com.saksonik.ConsoleMaze.model.Cell;
 import com.saksonik.ConsoleMaze.model.Maze;
 import com.saksonik.ConsoleMaze.properties.ApplicationProperties;
 import com.saksonik.ConsoleMaze.view.Renderer;
-
 import java.util.List;
 
 public class ConsoleRenderer implements Renderer {

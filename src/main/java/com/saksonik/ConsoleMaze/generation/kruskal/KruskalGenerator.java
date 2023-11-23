@@ -3,12 +3,10 @@ package com.saksonik.ConsoleMaze.generation.kruskal;
 import com.saksonik.ConsoleMaze.generation.Generator;
 import com.saksonik.ConsoleMaze.model.Edge;
 import com.saksonik.ConsoleMaze.model.Maze;
-
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 import java.util.Random;
-
 import static java.util.stream.Collectors.toList;
 import static java.util.stream.IntStream.range;
 

@@ -7,8 +7,11 @@ import com.saksonik.ConsoleMaze.properties.ApplicationProperties;
 import com.saksonik.ConsoleMaze.solving.Solver;
 import com.saksonik.ConsoleMaze.view.Renderer;
 import com.saksonik.ConsoleMaze.view.console.ConsoleRenderer;
-
-import java.util.*;
+import java.util.Arrays;
+import java.util.InputMismatchException;
+import java.util.List;
+import java.util.Random;
+import java.util.Scanner;
 
 public class ConsoleMaze {
     private static final String NUMBER_REGEX = "^\\d+$";

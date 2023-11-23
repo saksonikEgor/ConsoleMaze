@@ -8,7 +8,6 @@ import com.saksonik.ConsoleMaze.solving.Solver;
 import com.saksonik.ConsoleMaze.solving.aStar.AStarSolver;
 import com.saksonik.ConsoleMaze.solving.bfs.BFSSolver;
 import com.saksonik.ConsoleMaze.solving.dfs.DFSSolver;
-
 import java.util.Random;
 
 public class ApplicationProperties {

@@ -1,11 +1,9 @@
 package com.saksonik.ConsoleMaze.model;
 
 import com.saksonik.ConsoleMaze.properties.ApplicationProperties;
-
 import java.util.Arrays;
 import java.util.List;
 import java.util.Objects;
-
 import static com.saksonik.ConsoleMaze.model.Cell.Type.PASSAGE;
 import static com.saksonik.ConsoleMaze.model.Cell.Type.WALL;
 import static java.util.stream.Collectors.toList;

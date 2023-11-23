@@ -1,7 +1,14 @@
 package com.saksonik.ConsoleMaze.model;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
+import java.util.Random;
 import java.util.stream.IntStream;
+
 
 public class AlternatingCell {
     private final int cellId;

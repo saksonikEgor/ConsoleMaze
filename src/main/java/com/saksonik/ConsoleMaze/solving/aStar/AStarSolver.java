@@ -4,9 +4,13 @@ import com.saksonik.ConsoleMaze.model.Cell;
 import com.saksonik.ConsoleMaze.model.Maze;
 import com.saksonik.ConsoleMaze.properties.ApplicationProperties;
 import com.saksonik.ConsoleMaze.solving.Solver;
-
-import java.util.*;
-
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Objects;
+import java.util.PriorityQueue;
+import java.util.Set;
 import static java.util.Comparator.comparingInt;
 
 public class AStarSolver implements Solver {
